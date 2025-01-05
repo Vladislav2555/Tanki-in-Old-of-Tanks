@@ -1,0 +1,980 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.32f1 (b2e806cf271c) revision 11724806'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Vlad/Desktop/maps for old of tanks
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51408
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Vlad/Desktop/maps for old of tanks
+C:/Users/Vlad/Desktop/maps for old of tanks
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9616]  Target information:
+
+Player connection [9616]  * "[IP] 192.168.0.131 [Port] 0 [Flags] 2 [Guid] 3209908682 [EditorId] 3209908682 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IN5SQSO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9616] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9616] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Vlad/Desktop/maps for old of tanks/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   NVIDIA
+    VRAM:     3930 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.013814 seconds.
+- Loaded All Assemblies, in  0.434 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 242 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1083ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (158ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (651ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (387ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1579ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (547ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5918 unused Assets / (4.8 MB). Loaded Objects now: 6610.
+Memory consumption went from 178.7 MB to 173.9 MB.
+Total: 10.300500 ms (FindLiveObjects: 1.209300 ms CreateObjectMapping: 0.467200 ms MarkObjects: 5.486500 ms  DeleteObjects: 3.135900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18918.784824 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(9ba34dd1b40cac543bd686d55b42dc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(9ba34dd1b40cac543bd686d55b42dc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c063a968c35e43ede86670e913e024ab') in 0.0396661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(a708e1fb14001f24483cf6227bc6e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(a708e1fb14001f24483cf6227bc6e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66fe2ae81009b289eafaa4028e72b119') in 0.0061664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.932645 seconds.
+  path: Assets/Scenes/Комарин/Materials
+  artifactKey: Guid(6557836279e6d6d47afc1dccc2df31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Комарин/Materials using Guid(6557836279e6d6d47afc1dccc2df31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44f9ede5478bfaf883166f228b66f4a7') in 0.0012098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.8 MB). Loaded Objects now: 6613.
+Memory consumption went from 142.9 MB to 141.1 MB.
+Total: 6.055400 ms (FindLiveObjects: 0.415400 ms CreateObjectMapping: 0.134000 ms MarkObjects: 5.011800 ms  DeleteObjects: 0.493000 ms)
+
+Prepare: number of updated asset objects reloaded= 29
+========================================================================
+Received Import Request.
+  Time since last request: 3.506624 seconds.
+  path: Assets/Scenes/Комарин/Комарин.unity
+  artifactKey: Guid(70c37dfdd0828654db3d33484f5f0193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Комарин/Комарин.unity using Guid(70c37dfdd0828654db3d33484f5f0193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d1ccc07f1c7f6de936f3989310d23f1') in 0.0055931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (2.6 MB). Loaded Objects now: 6504.
+Memory consumption went from 143.1 MB to 140.4 MB.
+Total: 6.692900 ms (FindLiveObjects: 0.409200 ms CreateObjectMapping: 0.134400 ms MarkObjects: 5.131000 ms  DeleteObjects: 1.016800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2239.628780 seconds.
+  path: Assets/Scenes/Все ресурсы
+  artifactKey: Guid(53b5577fd90364d4e92bc9fd548a7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы using Guid(53b5577fd90364d4e92bc9fd548a7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7330a8568666f1318a8bbba7220cec7') in 0.0061278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5923 unused Assets / (5.5 MB). Loaded Objects now: 6504.
+Memory consumption went from 143.9 MB to 138.4 MB.
+Total: 10.049700 ms (FindLiveObjects: 0.808200 ms CreateObjectMapping: 0.335700 ms MarkObjects: 5.743900 ms  DeleteObjects: 3.160000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 412.986749 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40
+  artifactKey: Guid(47d81d8b05a9e9746872947cb8737d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40 using Guid(47d81d8b05a9e9746872947cb8737d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '642de60c8ee2672d060e6a2098694617') in 0.0058098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.025250 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP
+  artifactKey: Guid(04ddb66fd2f637240bf21fcd06aee317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP using Guid(04ddb66fd2f637240bf21fcd06aee317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f818f14b40a311dbf05a71cd69004095') in 0.0005968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.739543 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj
+  artifactKey: Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj using Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4781e77f209f6e71bb56f89fba662e94') in 0.1905516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png
+  artifactKey: Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png using Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1c4caf73778857d9b261e30d86a7e62') in 0.0217197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.png
+  artifactKey: Guid(3d192b470e3ee2f47851459e21e93113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.png using Guid(3d192b470e3ee2f47851459e21e93113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af9cd677ee946d07f556f10ff92948fc') in 0.0156565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP_NM.png
+  artifactKey: Guid(0622ca99e2a15e444b767ecb7af1751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP_NM.png using Guid(0622ca99e2a15e444b767ecb7af1751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42ebbb751dd487a6b7e62d22d856f8c') in 0.0156143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP_SM.png
+  artifactKey: Guid(fe4773036f5be484888b459de2bef058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP_SM.png using Guid(fe4773036f5be484888b459de2bef058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de859a1bdbcafdcb5954ab1d0b40bb72') in 0.0140271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track_SM.png
+  artifactKey: Guid(824143c51e167b6449c4fd34e6963227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track_SM.png using Guid(824143c51e167b6449c4fd34e6963227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e329f1ecb1191ab5c32cdb2d304c4123') in 0.0144511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track_NM.png
+  artifactKey: Guid(4da17d083a2c5184dae8840e835f9700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track_NM.png using Guid(4da17d083a2c5184dae8840e835f9700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fad6406096fdb200086561289affbd6') in 0.0148196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.642971 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP_NM.png
+  artifactKey: Guid(0622ca99e2a15e444b767ecb7af1751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP_NM.png using Guid(0622ca99e2a15e444b767ecb7af1751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45b785ab640c69831eea76df7c6a8058') in 0.0321542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.245254 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/KV-85.obj
+  artifactKey: Guid(a835c187c752c694992e0a21b238f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/KV-85.obj using Guid(a835c187c752c694992e0a21b238f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7731409d105bc803681577fa0fcfab7d') in 2.2985124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1674
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/t50.obj
+  artifactKey: Guid(0cb86b5ea66a7d84ca37750dd72dfd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/t50.obj using Guid(0cb86b5ea66a7d84ca37750dd72dfd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '558ec3ef293e6871961947973edd4501') in 0.0908442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.121058 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures
+  artifactKey: Guid(073fa842544baad4fa2a3ddc3ecfc940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures using Guid(073fa842544baad4fa2a3ddc3ecfc940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e12ea117c174a5d7265b26fc62cc87') in 0.0006588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045230 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/ao_chassis.png
+  artifactKey: Guid(c806ea52f31413c449ca773e395bd954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/ao_chassis.png using Guid(c806ea52f31413c449ca773e395bd954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e242e731306c4bd286d68c010e5e089') in 0.0157547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/chassis_gloss.png
+  artifactKey: Guid(4d4a1d0bfa9deae49bd1ec2a1c901f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/chassis_gloss.png using Guid(4d4a1d0bfa9deae49bd1ec2a1c901f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b612313d80c88c92796d8e879f629947') in 0.0134862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_guns_ANM_hd.png
+  artifactKey: Guid(5ef86013b6bf7f34f92de7eb74c64076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_guns_ANM_hd.png using Guid(5ef86013b6bf7f34f92de7eb74c64076) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9b4d434ee236f4f1aeb2c84bc4b7115') in 0.0140453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/track_gloss.png
+  artifactKey: Guid(a373a30a1c113364b89c0bf1e9affc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/track_gloss.png using Guid(a373a30a1c113364b89c0bf1e9affc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30b97a3321173da615877a73455e0c6') in 0.0145661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/hull_gloss.png
+  artifactKey: Guid(7396dae72d1e4114faf8f7ad27b12ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/hull_gloss.png using Guid(7396dae72d1e4114faf8f7ad27b12ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df931d56e8332cfb9723073a20a93f2f') in 0.014988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/mash_track.png
+  artifactKey: Guid(3b5dd20325030414799a14ff57698f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/mash_track.png using Guid(3b5dd20325030414799a14ff57698f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0da4cde108ddd3d63900312c625c06b8') in 0.013696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_turret_01_ANM_hd.png
+  artifactKey: Guid(f994acf445da482418f8bd4bf24220cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_turret_01_ANM_hd.png using Guid(f994acf445da482418f8bd4bf24220cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc72253ff2dd9d599fac49e6089a79d8') in 0.0140796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/ao_turret.png
+  artifactKey: Guid(16fbce903c64982449fa99bc0d7039c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/ao_turret.png using Guid(16fbce903c64982449fa99bc0d7039c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25bec26b0c2acc56fac966cca8a3bc01') in 0.0147409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/guns_metal.png
+  artifactKey: Guid(d3dc9467aac4bfe488c470a9359048fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/guns_metal.png using Guid(d3dc9467aac4bfe488c470a9359048fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5889efc67e2bd344cff99d74349a48fd') in 0.0137159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/hull_metal.png
+  artifactKey: Guid(55f8625085de2e44590a2a019a3bffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/hull_metal.png using Guid(55f8625085de2e44590a2a019a3bffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3fb4f9303edcd279413299d857001be') in 0.0151099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/ao_hull.png
+  artifactKey: Guid(2c6e78ab1441f1447bd77e58b3ac8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/ao_hull.png using Guid(2c6e78ab1441f1447bd77e58b3ac8533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '243c67c131df0081f0eb40b301fad27d') in 0.0147596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_guns_AM_hd.jpg
+  artifactKey: Guid(a8172e2672c01a24dafc010f9b42c9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_guns_AM_hd.jpg using Guid(a8172e2672c01a24dafc010f9b42c9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ea81911ca75ef05c21d21f460f8f5c7') in 0.0135116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_turret_01_AM_hd.jpg
+  artifactKey: Guid(501d13cac8c6f504eb4366643e1d1993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_turret_01_AM_hd.jpg using Guid(501d13cac8c6f504eb4366643e1d1993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e23522a1079c789c6c25dc466025230f') in 0.0143823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/mask_hull.png
+  artifactKey: Guid(c6c2d4dabffe89e4c9be60f5a7566b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/mask_hull.png using Guid(c6c2d4dabffe89e4c9be60f5a7566b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1613118f808f460648d1f22efaa4a8e') in 0.0148222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/guns_gloss.png
+  artifactKey: Guid(773eb37621cfe6644a268911f4d86d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/guns_gloss.png using Guid(773eb37621cfe6644a268911f4d86d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84715953e4c52bd4e75dcc5895dbe1ad') in 0.0136313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_chassis_01_ANM_hd.png
+  artifactKey: Guid(2343725e2c725fa4dabbcc72e0357052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_chassis_01_ANM_hd.png using Guid(2343725e2c725fa4dabbcc72e0357052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40d2653acf189e43674cdb6d672c2e36') in 0.0139622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_LKZ_segment_track_AM_hd.jpg
+  artifactKey: Guid(7aa4be5208de7a14aa08b073d662becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_LKZ_segment_track_AM_hd.jpg using Guid(7aa4be5208de7a14aa08b073d662becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9251ed2e0d21e01d8d3c1363f7cc2a11') in 0.0145928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/turret_metal.png
+  artifactKey: Guid(a53c65abb1ad9694b8f7c2c8f77444ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/turret_metal.png using Guid(a53c65abb1ad9694b8f7c2c8f77444ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9167d0851f33476d7e3f1ffb43edeae') in 0.0143429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/track_metal.png
+  artifactKey: Guid(63a7fef47a33fb54fae6037a06563662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/track_metal.png using Guid(63a7fef47a33fb54fae6037a06563662) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90bd58fe0f6d5b0ca668f0dfac457872') in 0.014442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_hull_01_AM_hd.jpg
+  artifactKey: Guid(007ed32de6494d541bb201c59b3040c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_hull_01_AM_hd.jpg using Guid(007ed32de6494d541bb201c59b3040c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cd07240662b8a1981bf84b0eaaef667') in 0.0155596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_LKZ_segment_track_ANM_hd.png
+  artifactKey: Guid(10ed7b6b2281b5d43a60cd76056cee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_LKZ_segment_track_ANM_hd.png using Guid(10ed7b6b2281b5d43a60cd76056cee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e084e3cf7187d447ddc5a5517d4538a') in 0.0146304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/mask_chassis.png
+  artifactKey: Guid(b4a9739166e24c349a82d79ad19301ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/mask_chassis.png using Guid(b4a9739166e24c349a82d79ad19301ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c91fcbc2b4aeba03e7768c395b973fe7') in 0.0134636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_hull_01_ANM_hd.png
+  artifactKey: Guid(0b81765a854838e4ea9e563004a44137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_hull_01_ANM_hd.png using Guid(0b81765a854838e4ea9e563004a44137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa0c119bbbb0f3a0c077d71c8f97cdd3') in 0.0151547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/ao_guns.png
+  artifactKey: Guid(0cb8614a10ae75e459311239132d62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/ao_guns.png using Guid(0cb8614a10ae75e459311239132d62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c07f082af916759233ef93bfece6826e') in 0.0145716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_chassis_01_AM_hd.jpg
+  artifactKey: Guid(f7388e67ab67eea438974011d1ffbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/T_50_2_chassis_01_AM_hd.jpg using Guid(f7388e67ab67eea438974011d1ffbcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5c43433b4f79ddb848b59a1de199ba5') in 0.0143071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/chassis_metal.png
+  artifactKey: Guid(90d4daba681fd5647ad0d021de703d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/chassis_metal.png using Guid(90d4daba681fd5647ad0d021de703d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a52c876018619177c3482aba47eb10cb') in 0.0146186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Все ресурсы/t50-2/textures/turret_gloss.png
+  artifactKey: Guid(29e690ea117aac443bc4d6339b60be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/t50-2/textures/turret_gloss.png using Guid(29e690ea117aac443bc4d6339b60be38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9c0d8aa1ae2f2d7ee46ff532157afe9') in 0.0146318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 421.300918 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/Strv_S1.obj
+  artifactKey: Guid(615d928507cf82048b40af00d5ea52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/Strv_S1.obj using Guid(615d928507cf82048b40af00d5ea52b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35e5eb68e73021f6859abf59936e182e') in 0.1134707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.921864 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures
+  artifactKey: Guid(92f5cfd03afad46409876904823a0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures using Guid(92f5cfd03afad46409876904823a0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09fd20cc6d0b7b8ce75e8daa0a799fbd') in 0.000711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064133 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_alpha.png
+  artifactKey: Guid(f6a196589abaf714c9afacadc7449c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_alpha.png using Guid(f6a196589abaf714c9afacadc7449c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67d6fc8f2a6f4f2fcc60aafc2e06aef3') in 0.0141179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_diffuse.jpg
+  artifactKey: Guid(083e458988a13de409fe167d5c895279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_diffuse.jpg using Guid(083e458988a13de409fe167d5c895279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2999c570043c3197ee62f1035d1219ac') in 0.0130779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_diffuse.jpg
+  artifactKey: Guid(7c0f34ec83930c941b9210fab024ca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_diffuse.jpg using Guid(7c0f34ec83930c941b9210fab024ca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d4de2d38a8624ec5ada1f3e0e1c23a3') in 0.0246483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_specular.jpg
+  artifactKey: Guid(b2c8ecffb81f40c47a7997df1815ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_specular.jpg using Guid(b2c8ecffb81f40c47a7997df1815ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75912336b4a3cc1339a8d968e28a9d5b') in 0.0136186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_alpha.png
+  artifactKey: Guid(f1148cf8acd31ab48b7ff18a4bedec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_alpha.png using Guid(f1148cf8acd31ab48b7ff18a4bedec45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fedb08f3de0153e3cd70f4e816043307') in 0.0143343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_chassis_01_diffuse.jpg
+  artifactKey: Guid(12dab0a9ff4c5fb4bad8175a4d8b4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_chassis_01_diffuse.jpg using Guid(12dab0a9ff4c5fb4bad8175a4d8b4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '625588b6ebe37e055ae88eed2a1249d2') in 0.0148686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_normal.jpg
+  artifactKey: Guid(4c9d514c2ae649545967e4e6dc500706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/kranvagn_track_normal.jpg using Guid(4c9d514c2ae649545967e4e6dc500706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cd9c2c0b3cf604b06779ed4a8f004f4') in 0.0138846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_specular.jpg
+  artifactKey: Guid(dbb2920e9ccf15c419e5e6de06c09b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_specular.jpg using Guid(dbb2920e9ccf15c419e5e6de06c09b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d57b08d94da1283e315d842a2ec05ec') in 0.0141588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_guns_specular.jpg
+  artifactKey: Guid(4ed74ced972add14386489ebed0a3a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_guns_specular.jpg using Guid(4ed74ced972add14386489ebed0a3a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0888b2dae8ca12b7435020c7b0073240') in 0.0150968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_diffuse.jpg
+  artifactKey: Guid(b7762f2568a8e1144a3306e7803ce7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_diffuse.jpg using Guid(b7762f2568a8e1144a3306e7803ce7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a36b0d7ae04ec0dc46396e4ea226546b') in 0.014537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_chassis_01_normal.jpg
+  artifactKey: Guid(4c311fdae499edb4f9baa7bbe5665830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_chassis_01_normal.jpg using Guid(4c311fdae499edb4f9baa7bbe5665830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3de773d6193026cd41b6afbb75996405') in 0.0162324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_specular.jpg
+  artifactKey: Guid(b0f5975b68386c54787a60c819dabb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_specular.jpg using Guid(b0f5975b68386c54787a60c819dabb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4b0b6fa4342cfbcf5770c847d82586a') in 0.0164093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_guns_normal.jpg
+  artifactKey: Guid(f686c4251f5169c44b64be8d7144b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_guns_normal.jpg using Guid(f686c4251f5169c44b64be8d7144b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c1fbd35fe18d88ae1009e5004ef1f0') in 0.0165634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_normal.jpg
+  artifactKey: Guid(dd849186f496dc14a8c0c4d5fca81109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_01_normal.jpg using Guid(dd849186f496dc14a8c0c4d5fca81109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '012d07cf41b5086a9bb025ddc19eb7c1') in 0.0149635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_normal.jpg
+  artifactKey: Guid(932992a3333695641a7adb2e6d6ffa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_normal.jpg using Guid(932992a3333695641a7adb2e6d6ffa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dc964ac78ec68bdb8ae7153313f9ea6') in 0.015791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_chassis_01_specular.jpg
+  artifactKey: Guid(24c5be10255f3e149a93cceff13a4c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_chassis_01_specular.jpg using Guid(24c5be10255f3e149a93cceff13a4c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5848b480b1935f4acdc5956bc4e96599') in 0.0150201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_guns_diffuse.jpg
+  artifactKey: Guid(657872051bb2f094fb173771c1eba548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_guns_diffuse.jpg using Guid(657872051bb2f094fb173771c1eba548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b80ed9869153fd78c584035fe9f6caa5') in 0.0148488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_alpha.png
+  artifactKey: Guid(f5b4452e25e909a49a83a80bf5ed441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/strv s1/textures/strv_s1_hull_02_alpha.png using Guid(f5b4452e25e909a49a83a80bf5ed441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '539cf0c2efe0fc2906a24cab9fbeaecd') in 0.0158843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.896338 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40.obj
+  artifactKey: Guid(fde1a3d7943e0fc4e99527555c185cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40.obj using Guid(fde1a3d7943e0fc4e99527555c185cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab204c5fdcd55e3060e420e67b432fe1') in 0.0962199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40_track_NM.png
+  artifactKey: Guid(b296f22ad4e999a4c98062770eaa78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40_track_NM.png using Guid(b296f22ad4e999a4c98062770eaa78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fcc332b2cc389efa0647b2942f15349') in 0.0151132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40_SM.png
+  artifactKey: Guid(bbfc7315c85cb9e428f7b75587021eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40_SM.png using Guid(bbfc7315c85cb9e428f7b75587021eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a775decd82b4124608064bb0799b84b9') in 0.0220397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40_track_SM.png
+  artifactKey: Guid(2d5447fdbd3bf3f48828d15e8a419525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40_track_SM.png using Guid(2d5447fdbd3bf3f48828d15e8a419525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c2777bfff85c3f0f2566a78d5a566c5') in 0.0297275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40_track.png
+  artifactKey: Guid(2439d1acc044f364b93132e3ee5cee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40_track.png using Guid(2439d1acc044f364b93132e3ee5cee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab694d9c5b492a525b556de06a3c6956') in 0.0206649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40_NM.png
+  artifactKey: Guid(74a602a9fc8a09d47882f869eb010d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40_NM.png using Guid(74a602a9fc8a09d47882f869eb010d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd603060b0f554d4625cbbb3191409aa') in 0.0201935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40.png
+  artifactKey: Guid(2545e5b6bce0c2a4299da51e8978520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40.png using Guid(2545e5b6bce0c2a4299da51e8978520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '342598a6e70e04bb77bb205cb375fae4') in 0.0191581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.903611 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures
+  artifactKey: Guid(9bf6cb419f8432d4b950988f283c5854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures using Guid(9bf6cb419f8432d4b950988f283c5854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02ed8d68e59e0b92cf105692d91ccfd5') in 0.0006839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561833 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures/KV85_CarBody_color.jpg
+  artifactKey: Guid(41f80cc05f248c342bb191b3226eb569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures/KV85_CarBody_color.jpg using Guid(41f80cc05f248c342bb191b3226eb569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '853466cbfc3daed487277f2435b5b6f7') in 0.015354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures/KV85_Wheel_B_color.jpg
+  artifactKey: Guid(f4b6908a769d3ef4cbe90e02b0a4c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures/KV85_Wheel_B_color.jpg using Guid(f4b6908a769d3ef4cbe90e02b0a4c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0854b46eb8d1f904bd22a89fc174673') in 0.0158366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures/T2.jpg
+  artifactKey: Guid(e9f90eea325368846b2fbd0b3af070fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures/T2.jpg using Guid(e9f90eea325368846b2fbd0b3af070fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e5814bf6acb38cd08d34a2ad1a8f2d7') in 0.0147572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures/KV85_Turret_color.jpg
+  artifactKey: Guid(0822fd095ec1f254da21327b176f388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures/KV85_Turret_color.jpg using Guid(0822fd095ec1f254da21327b176f388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c0cb23e26b3ed7b2ea08ebf4ab195b') in 0.014465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures/KV85_Wheel_A_color.jpg
+  artifactKey: Guid(f40a2c1bb35992047b4fa64958ff37a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures/KV85_Wheel_A_color.jpg using Guid(f40a2c1bb35992047b4fa64958ff37a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '217ac984a4b5394ba9dc010d734dfd43') in 0.0177491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures/KV85_ToolSet_color.jpg
+  artifactKey: Guid(0a2be7a38209a7c4693171a56f7ff64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures/KV85_ToolSet_color.jpg using Guid(0a2be7a38209a7c4693171a56f7ff64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ae64fb13db8aa07adba5011c5faf5fa') in 0.0141469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.122162 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/Materials/KV85_CarBody_color.mat
+  artifactKey: Guid(a30e48774cddeab468325f5136e00563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/Materials/KV85_CarBody_color.mat using Guid(a30e48774cddeab468325f5136e00563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '329d0919dd9ca3ddbaa0dccb48c175a7') in 0.0155122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/Materials/KV85_Turret_color.mat
+  artifactKey: Guid(149fc8e3341fb9948bee4b6d42eca028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/Materials/KV85_Turret_color.mat using Guid(149fc8e3341fb9948bee4b6d42eca028) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42cfa91b2dbb2d18f6476d6f25ac3de') in 0.0148085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/Materials/KV85_Wheel_B_color.mat
+  artifactKey: Guid(c5251d63f7f5adb4783217a67cb92506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/Materials/KV85_Wheel_B_color.mat using Guid(c5251d63f7f5adb4783217a67cb92506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd314a2e6e16284ceebea9d4273f82a95') in 0.0157527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/Materials/T2.mat
+  artifactKey: Guid(403afe10a16d6be44a7356504e25cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/Materials/T2.mat using Guid(403afe10a16d6be44a7356504e25cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd19d11335f4a476324ddc1f2ce3e41d9') in 0.0146108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.669614 seconds.
+  path: Assets/Scenes/Все ресурсы/kv-85/textures/Track.mat
+  artifactKey: Guid(fb7bf07e42ebcae4da0a7893323dca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/kv-85/textures/Track.mat using Guid(fb7bf07e42ebcae4da0a7893323dca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3db5ff9288bf20f6e7b71c709b935db6') in 0.0145152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.382876 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40_NM.png
+  artifactKey: Guid(74a602a9fc8a09d47882f869eb010d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40_NM.png using Guid(74a602a9fc8a09d47882f869eb010d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dc19343918be7085cc8d7f39a1a7ba4') in 0.0180218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Все ресурсы/AMX_40/AMX40_track_NM.png
+  artifactKey: Guid(b296f22ad4e999a4c98062770eaa78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/AMX_40/AMX40_track_NM.png using Guid(b296f22ad4e999a4c98062770eaa78e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abc2d5223ee5a4cab005ec48a988f2d4') in 0.0142708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.262275 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj
+  artifactKey: Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj using Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd8a5e7e347ac0eba9c208879df5a38') in 0.0691503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png
+  artifactKey: Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png using Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e248d8c89bbfe9448a68f4b0c33f07f9') in 0.0143413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.728949 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png
+  artifactKey: Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png using Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83a9db55e87eb1481b9aa78489ccd6d2') in 0.0150122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj
+  artifactKey: Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj using Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95570abeb5f7da70ed31569d5195da83') in 0.0606072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.911616 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png
+  artifactKey: Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/T-50_2_track.png using Guid(9f2a710cee3639c4ba1cf0b48deaf706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d531de07780ad4df1580af689972a8') in 0.0151403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj
+  artifactKey: Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Все ресурсы/World of Tanks — LTP/LTP.obj using Guid(e9bf699b4627c8946bb3741a0fd436ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '532747be0ba3406e3b37b9647dabb40b') in 0.069066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
